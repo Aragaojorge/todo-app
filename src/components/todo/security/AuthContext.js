@@ -12,13 +12,12 @@ export default function AuthProvider({children}) {
 
     function login(username, password) {
 
-        if(username==='devjola' && password==='123') {
+        if(username==='in28minutes' && password==='123') {
             setAuthenticated(true)
             setUsername(username)
             return true
 
         } else {
-
             setAuthenticated(false)
             setUsername(null)
             return false

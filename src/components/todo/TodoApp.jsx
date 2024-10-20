@@ -37,7 +37,7 @@ export default function TodoApp() {
                        
                         <Route path='/todos' element={ <AuthenticatedRoute><ListTodosComponent /></AuthenticatedRoute> } />
                        
-                        <Route path='/todos/:id' element={ <AuthenticatedRoute><TodoComponent /></AuthenticatedRoute> } />
+                        <Route path='/todo/:id' element={ <AuthenticatedRoute><TodoComponent /></AuthenticatedRoute> } />
                         
                         <Route path='/logout' element={ <AuthenticatedRoute><LogoutComponent /></AuthenticatedRoute> } />
 
